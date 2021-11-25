@@ -1,0 +1,18 @@
+{
+    "name": "movisio/redis-queue",
+    "description": "Simple Redis Message Queue",
+    "type": "library",
+    "require": {
+        "kdyby/redis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Movisio\\RedisQueue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Týýýým"
+        }
+    ]
+}
